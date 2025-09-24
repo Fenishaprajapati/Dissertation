@@ -1,0 +1,41 @@
+{
+  "categorical_nominal": [
+    "Institution_Type",
+    "Country",
+    "Vendor_Strategy",
+    "Deployment_Mode"
+  ],
+  "binary_cols": [
+    "Has_Dedicated_AI_Team",
+    "Data_Lake_Exists",
+    "Governance_Framework_Exists",
+    "AI_Governance_Committee",
+    "Data_Privacy_Compliant"
+  ],
+  "ordinal_1_5": [
+    "Governance_Maturity",
+    "Model_Risk_Management_Maturity",
+    "Risk_Culture_Score",
+    "Cybersecurity_Level",
+    "Leadership_Commitment"
+  ],
+  "numeric_log": [
+    "Employee_Count",
+    "Annual_Revenue_M",
+    "AI_Budget_Allocated",
+    "Training_Investment_Per_Employee"
+  ],
+  "numeric_other": [
+    "IT_Spend_Percent_Revenue",
+    "AI_Budget_Percent_Revenue",
+    "Budget_Growth_YoY",
+    "Technical_Readiness_Score",
+    "API_Integration_Score",
+    "Legacy_System_Score",
+    "Data_Maturity_Index",
+    "Existing_AI_Projects",
+    "Use_Case_Breadth",
+    "Compliance_Incidents_12M"
+  ],
+  "target": "LLM_Adoption_Status"
+}
